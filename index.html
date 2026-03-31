@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DSA Topic Cards</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="creator-badge">Created by Shirinov Shohruh</div>
+
+<header class="topbar">
+  <div>
+    <h1>DSA Topic Cards</h1>
+    <p>Click a card and test the logic of each data structure or algorithm.</p>
+  </div>
+</header>
+
+<main class="wrapper">
+  <section class="cards-section">
+    <div class="topics-grid">
+      <div class="topic-card active" data-topic="array">
+        <h3>Array</h3>
+        <p>Stores items in order using indexes.</p>
+      </div>
+
+      <div class="topic-card" data-topic="linkedlist">
+        <h3>Linked List</h3>
+        <p>Stores connected nodes one after another.</p>
+      </div>
+
+      <div class="topic-card" data-topic="stack">
+        <h3>Stack</h3>
+        <p>Last In, First Out structure.</p>
+      </div>
+
+      <div class="topic-card" data-topic="queue">
+        <h3>Queue</h3>
+        <p>First In, First Out structure.</p>
+      </div>
+
+      <div class="topic-card" data-topic="binarytree">
+        <h3>Binary Tree</h3>
+        <p>Hierarchical structure with child nodes.</p>
+      </div>
+
+      <div class="topic-card" data-topic="sorting">
+        <h3>Sorting</h3>
+        <p>Arrange data in a proper order.</p>
+      </div>
+
+      <div class="topic-card" data-topic="graph">
+        <h3>Graph</h3>
+        <p>Represents connections between nodes.</p>
+      </div>
+
+      <div class="topic-card" data-topic="dijkstra">
+        <h3>Dijkstra</h3>
+        <p>Finds shortest path in weighted graphs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="playground">
+    <div class="panel-header">
+      <span class="mini-badge">Interactive Playground</span>
+      <h2 id="panelTitle">Array</h2>
+      <p id="panelDesc">
+        Array stores values in order and allows fast access by index.
+      </p>
+    </div>
+
+    <div id="panelControls" class="panel-controls"></div>
+
+    <div class="result-box">
+      <h4>Output</h4>
+      <div id="output">Choose an operation and see the result here.</div>
+    </div>
+
+    <div class="visual-box">
+      <h4>Visualization</h4>
+      <div id="visualArea" class="visual-area"></div>
+    </div>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
